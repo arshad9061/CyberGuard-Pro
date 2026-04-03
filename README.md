@@ -37,9 +37,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/CyberGuard-Pro.git
+git clone https://github.com/arshad9061/CyberGuard-Pro.git
 cd CyberGuard-Pro
-
+python -m venv venv
+source venv/bin/activate 
 # Install dependencies
 pip install -r requirements.txt
 
